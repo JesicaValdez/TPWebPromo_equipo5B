@@ -1,0 +1,9 @@
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\bin\Debug\Manager.dll
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\bin\Debug\Manager.pdb
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\bin\Debug\Dominio.dll
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\bin\Debug\Dominio.pdb
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.csproj.Up2Date
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.dll
+C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.pdb

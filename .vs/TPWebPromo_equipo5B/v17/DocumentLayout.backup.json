@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\EjemploVacio\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|C:\\Users\\user\\source\\repos\\EjemploVacio\\webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|solutionrelative:webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+      "AbsoluteMoniker": "D:0:0:{985C0A50-8262-4EAB-86ED-268909599CB9}|WebApplication\\Dominio\\Dominio.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{985C0A50-8262-4EAB-86ED-268909599CB9}|WebApplication\\Dominio\\Dominio.csproj|solutionrelative:webapplication\\dominio\\articulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|c:\\users\\user\\source\\repos\\ejemplovacio\\webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|solutionrelative:webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|C:\\Users\\user\\source\\repos\\EjemploVacio\\webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|solutionrelative:webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|c:\\users\\user\\source\\repos\\ejemplovacio\\webapplication\\promogan\u00E1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\promogan\u00E1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\Ejemplo1.csproj|solutionrelative:webapplication\\promogan\u00E1.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     }
   ],
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,37 +46,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Login.aspx.cs",
-              "RelativeToolTip": "WebApplication\\Login.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Articulo.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Dominio\\Articulo.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Dominio\\Articulo.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Dominio\\Articulo.cs",
+              "RelativeToolTip": "WebApplication\\Dominio\\Articulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-28T01:24:36.749Z",
+              "WhenOpened": "2024-09-29T02:29:03.961Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Login.aspx",
-              "RelativeDocumentMoniker": "WebApplication\\Login.aspx",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Login.aspx",
-              "RelativeToolTip": "WebApplication\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-28T00:53:52.458Z",
-              "EditorCaption": ""
+              "Title": "Login.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Login.aspx.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
+              "RelativeToolTip": "WebApplication\\Login.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:24:36.749Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Login.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
+              "RelativeDocumentMoniker": "WebApplication\\Login.aspx",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
+              "RelativeToolTip": "WebApplication\\Login.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-09-28T00:53:52.458Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MasterPage.Master",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\MasterPage.Master",
               "RelativeDocumentMoniker": "WebApplication\\MasterPage.Master",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\MasterPage.Master",
               "RelativeToolTip": "WebApplication\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
@@ -81,16 +96,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Promogan\u00E1.aspx",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Promogan\u00E1.aspx",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Promogan\u00E1.aspx",
               "RelativeDocumentMoniker": "WebApplication\\Promogan\u00E1.aspx",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\EjemploVacio\\WebApplication\\Promogan\u00E1.aspx",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Promogan\u00E1.aspx",
               "RelativeToolTip": "WebApplication\\Promogan\u00E1.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-09-27T23:49:57.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-27T23:49:57.461Z"
             }
           ]
         },
