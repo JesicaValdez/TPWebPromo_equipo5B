@@ -4,3 +4,9 @@ C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Dominio\obj\D
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Dominio\obj\Debug\Dominio.dll
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Dominio\obj\Debug\Dominio.pdb
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\bin\Debug\Dominio.dll
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\bin\Debug\Dominio.pdb
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.dll
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.pdb

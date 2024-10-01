@@ -1,9 +1,11 @@
-﻿using System;
+﻿using Manager;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using Dominio;
 
 namespace WebApplication
 {
@@ -13,5 +15,21 @@ namespace WebApplication
         {
 
         }
+
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            VoucherNegocio neg = new VoucherNegocio();
+            List<Voucher> lista = neg.listarVouchers();
+            foreach (Voucher voucher in lista)
+            {
+                if (voucher.codigo == Vou.Text && voucher.idCliente == 0)
+                {
+                    Session.Add("voucher", voucher.codigo);
+                    Response.Redirect("Login.aspx");
+
+                }
+                
+            }
+        }        
     }
 }

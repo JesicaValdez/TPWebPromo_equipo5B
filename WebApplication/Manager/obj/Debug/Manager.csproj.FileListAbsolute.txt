@@ -7,3 +7,12 @@ C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\D
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.csproj.Up2Date
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.dll
 C:\Users\user\Desktop\UTN\Programación III\WinformTP\Presentacion\Manager\obj\Debug\Manager.pdb
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Manager.dll
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Manager.pdb
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Dominio.dll
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Dominio.pdb
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.Up2Date
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.dll
+C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.pdb
