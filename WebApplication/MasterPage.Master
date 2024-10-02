@@ -15,16 +15,23 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <header>
-                <h1>Promo Ganá</h1>
+            <header class="bg-dark text-white py-3">
+                <h1 class="h4">Promo Ganá</h1>
+              
             </header>
             <div class="container">
                  <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                  </asp:ContentPlaceHolder>
             </div>
-            <footer>
+
+            <div class="mb-5"></div> 
+            <footer class="bg-light text-center text-lg-start">
+              <div class="container p-4 text-center">
                 <hr />
-                <p>Este es el Footer de página</p>
+                <p>¡Gracias por participar de nuestra Promo!</p>
+                <p>Si necesitas ayuda, contáctanos al correo: soporte@promoganar.com</p>
+                <p>© 2024 Promo Ganá. Todos los derechos reservados.</p>
+                </div>
             </footer>
         </div>
     </form>

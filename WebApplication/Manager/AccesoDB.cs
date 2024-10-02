@@ -20,7 +20,7 @@ namespace Manager
 
         public AccesoDB()
         {
-            conexion = new SqlConnection("server=DESKTOP-TI2DHGA\\SQLEXPRESS; database=PROMOS_DB; integrated security=true");
+            conexion = new SqlConnection("Server=localhost; Database=PROMOS_DB; User Id=sa; Password=TuNuevaContraseñaFuerte2;");
             comando = new SqlCommand();
         }
 
@@ -30,17 +30,27 @@ namespace Manager
             comando.CommandText = consulta;
         }
 
+        public void setearProcedimiento(string procedimiento)
+        {
+            comando.CommandType = System.Data.CommandType.StoredProcedure;
+            comando.CommandText = procedimiento;
+        }
+
         public void ejecutarLectura()
         {
             comando.Connection = conexion;
             try
             {
                 conexion.Open();
+                if (conexion.State != System.Data.ConnectionState.Open)
+                {
+                    throw new Exception("La conexión no se pudo abrir.");
+                }
                 lector = comando.ExecuteReader();
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw new Exception("Error al ejecutar la lectura: " + ex.Message);
             }
         }
 

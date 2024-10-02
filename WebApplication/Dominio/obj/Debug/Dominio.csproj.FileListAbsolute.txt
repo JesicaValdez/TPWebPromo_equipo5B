@@ -10,3 +10,9 @@ C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Deb
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.dll
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.pdb
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\bin\Debug\Dominio.dll
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\bin\Debug\Dominio.pdb
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.dll
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Dominio\obj\Debug\Dominio.pdb

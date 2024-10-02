@@ -23,58 +23,57 @@ namespace Manager
             List<Articulo> lista = new List<Articulo>();
             List<Imagen> lista1 = new List<Imagen>();
             ImagenNegocio negocio = new ImagenNegocio();
-            AccesoDB datos = new AccesoDB();
+
             try
             {
-                datos.setearConsulta("Select A.Id, Codigo, Nombre, A.Descripcion as Detalle, M.Descripcion as Marca, C.Descripcion as Categoria, Precio From ARTICULOS A, MARCAS M, CATEGORIAS C where A.IdMarca = M.Id AND A.IdCategoria = C.Id");
-                datos.ejecutarLectura();
+                datos.setearProcedimiento("StoredListar"); // Establece el procedimiento
+                datos.ejecutarLectura(); // Ejecuta la lectura
+
+                if (datos.Lector == null)
+                {
+                    throw new Exception("El lector no se inicializó.");
+                }
+
+                if (!datos.Lector.HasRows)
+                {
+                    throw new Exception("No hay filas para leer.");
+                }
 
                 while (datos.Lector.Read())
                 {
                     Articulo aux = new Articulo();
                     aux.id = (int)datos.Lector["Id"];
-                    if (!(datos.Lector["Codigo"] is DBNull))
-                        aux.codigo = (string)datos.Lector["Codigo"];
-                    if (!(datos.Lector["Nombre"] is DBNull))
-                        aux.nombre = (string)datos.Lector["Nombre"];
-                    if (!(datos.Lector["Detalle"] is DBNull))
-                        aux.descripcion = (string)datos.Lector["Detalle"];
-                    if (!(datos.Lector["Marca"] is DBNull))
-                    {
-                        aux.marca = new Marca();
-                        aux.marca.Descripcion = (string)datos.Lector["Marca"];
-                    }
-                    if (!(datos.Lector["Categoria"] is DBNull))
-                    {
-                        aux.categoria = new Categoria();
-                        aux.categoria.Descripcion = (string)datos.Lector["Categoria"];
-                    }
-                    if (!(datos.Lector["Precio"] is DBNull))
-                        aux.precio = (decimal)datos.Lector["Precio"];
-                    lista1 = negocio.buscarimagenes(aux.id);
+                    aux.codigo = datos.Lector["Codigo"] as string;
+                    aux.nombre = datos.Lector["Nombre"] as string;
+                    aux.descripcion = datos.Lector["Detalle"] as string;
 
-                    if (lista1 != null && lista1.Count > 0)
+                    if (datos.Lector["Marca"] != DBNull.Value)
                     {
-                        aux.imagenurl = lista1[0].Url;
+                        aux.marca = new Marca { Descripcion = (string)datos.Lector["Marca"] };
                     }
-                    else
+                    if (datos.Lector["Categoria"] != DBNull.Value)
                     {
-                        aux.imagenurl = null;
+                        aux.categoria = new Categoria { Descripcion = (string)datos.Lector["Categoria"] };
                     }
+                    aux.precio = (decimal)datos.Lector["Precio"];
+
+                    lista1 = negocio.buscarimagenes(aux.id);
+                    aux.imagenurl = (lista1 != null && lista1.Count > 0) ? lista1[0].Url : null;
+                    
                     lista.Add(aux);
                 }
                 return lista;
             }
             catch (Exception ex)
             {
-                throw ex;
+                throw ex; // Muestra la excepción original
             }
             finally
             {
                 datos.cerrarConexion();
             }
-
         }
+
 
         public List<Articulo> buscarpormarca(string marca)
         {

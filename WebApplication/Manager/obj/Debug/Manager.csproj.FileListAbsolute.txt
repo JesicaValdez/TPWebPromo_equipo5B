@@ -16,3 +16,12 @@ C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Deb
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.Up2Date
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.dll
 C:\Users\Usuario\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.pdb
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Manager.dll
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Manager.pdb
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Dominio.dll
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\bin\Debug\Dominio.pdb
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.csproj.Up2Date
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.dll
+C:\Users\user\source\repos\TPWebPromo_equipo5B\WebApplication\Manager\obj\Debug\Manager.pdb
