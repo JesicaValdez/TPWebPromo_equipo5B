@@ -81,6 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
+    <Content Include="Incorrecto.aspx" />
     <Content Include="Premios.aspx" />
     <Content Include="Web.config" />
     <Content Include="Promoganá.aspx" />
@@ -89,6 +90,13 @@
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Incorrecto.aspx.cs">
+      <DependentUpon>Incorrecto.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Incorrecto.aspx.designer.cs">
+      <DependentUpon>Incorrecto.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

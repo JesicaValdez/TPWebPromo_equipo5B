@@ -51,6 +51,24 @@ namespace Manager
                 datos.cerrarConexion();
             }
         }
-        
+
+        public void modificarVoucher(Voucher nuevo)
+        {
+            try
+            {
+                datos.setearConsulta("update Vouchers set IdCliente = '" + nuevo.idCliente + "', IdArticulo = '" + nuevo.idArticulo + "', FechaCanje = '" + nuevo.fechaCanje + "' where CodigoVoucher = '" + nuevo.codigo + "'");
+                datos.ejecutarAccion();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
     }
+
+    
 }

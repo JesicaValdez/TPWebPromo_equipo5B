@@ -13,23 +13,36 @@ namespace WebApplication
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
         {
             VoucherNegocio neg = new VoucherNegocio();
             List<Voucher> lista = neg.listarVouchers();
+            if(Vou.Text == "")
+            {
+                Session.Add("error", 1);
+                Response.Redirect("Incorrecto.aspx");
+            }
             foreach (Voucher voucher in lista)
             {
-                if (voucher.codigo == Vou.Text && voucher.idCliente == 0)
+                if (voucher.codigo == Vou.Text)
                 {
-                    Session.Add("voucher", voucher.codigo);
-                    Response.Redirect("Login.aspx");
-
+                    if (voucher.idCliente == 0)
+                    {
+                        Session.Add("voucher", voucher.codigo);
+                        Response.Redirect("Premios.aspx");
+                    }
+                    else
+                    {
+                        Session.Add("error", 2);
+                        Response.Redirect("Incorrecto.aspx");
+                    }
                 }
-                
             }
-        }        
+            Session.Add("error", 3);
+            Response.Redirect("Incorrecto.aspx");
+        }
     }
 }
