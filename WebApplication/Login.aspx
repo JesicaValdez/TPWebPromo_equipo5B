@@ -7,8 +7,9 @@
  <div class="row">
      <div class="col-5">
          <div class="mb-3">
-             <label for="txtVoucher" class="form-label">DNI</label>
-             <asp:TextBox runat="server" ID="txtVoucher" CssClass="form-control" />
+             <label for="txtdni" class="form-label">DNI</label>
+             <asp:TextBox runat="server" ID="txtdni" CssClass="form-control" OnTextChanged="DNI_changed"/>
+             <asp:Label ID="lblResultado" runat="server" />
          </div>
          <div class="row mb-3">
              <div class="col">
