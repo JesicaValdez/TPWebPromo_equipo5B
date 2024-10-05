@@ -80,6 +80,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EstaParticipando.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Incorrecto.aspx" />
     <Content Include="Premios.aspx" />
@@ -88,6 +89,13 @@
     <Content Include="Login.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="EstaParticipando.aspx.cs">
+      <DependentUpon>EstaParticipando.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EstaParticipando.aspx.designer.cs">
+      <DependentUpon>EstaParticipando.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

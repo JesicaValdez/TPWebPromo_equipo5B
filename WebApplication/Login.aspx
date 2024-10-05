@@ -3,52 +3,59 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-     <h1>Ingresá tus datos</h1>
- <div class="row">
-     <div class="col-5">
-         <div class="mb-3">
-             <label for="txtdni" class="form-label">DNI</label>
-             <asp:TextBox runat="server" ID="txtdni" CssClass="form-control" OnTextChanged="DNI_changed"/>
-             <asp:Label ID="lblResultado" runat="server" />
-         </div>
-         <div class="row mb-3">
-             <div class="col">
-                 <label for="txtNombre" class="form-label">Nombre</label>
-                 <asp:TextBox runat="server" ID="txtNombre" CssClass="form-control" />
-             </div>
-             <div class="col">
-                 <label for="txtApellido" class="form-label">Apellido</label>
-                 <asp:TextBox runat="server" ID="txtApellido" CssClass="form-control" />
-             </div>
-         </div>
-         <div class="mb-3">
-             <label for="txtEmail" class="form-label">Email</label>
-             <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" />
-         </div>
-         <div class="row mb-3">
-             <div class="col">
-                 <label for="txtDireccion" class="form-label">Direccion</label>
-                 <asp:TextBox runat="server" ID="txtDireccion" CssClass="form-control" />
-             </div>
-             <div class="col">
-                 <label for="txtCiudad" class="form-label">Ciudad</label>
-                 <asp:TextBox runat="server" ID="txtCiudad" CssClass="form-control" />
-             </div>
-             <div class="col">
-                 <label for="txtCP" class="form-label">CP</label>
-                 <asp:TextBox runat="server" ID="txtCP" CssClass="form-control" />
-             </div>
-             <div class="form-check">
-                 <asp:CheckBox Text="" ID="chBoxTyC" runat="server" />
-                 <label class="form-check-label" for="flexCheckDefault">
-                    Acepta Terminos y Condiciones.
-                 </label>
-             </div>
-             <div class="mb-3">
-                 <button type="submit" class="btn btn-primary">Aceptar</button>
-             </div>
-         </div>
-     </div>
-   </div>
+    <h1>Ingresá tus datos</h1>
+    <div class="row">
+        <div class="col-5">
+            <div class="mb-3">
+                <label for="txtdni" class="form-label">DNI</label>
+                <asp:TextBox runat="server" ID="txtdni" CssClass="form-control" placeholder="Ingrese Dni" OnTextChanged="DNI_changed" AutoPostBack="True" />
+                <asp:Label ID="lblResultado" runat="server"></asp:Label>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="txtNombre" class="form-label">Nombre</label>
+                    <asp:TextBox runat="server" ID="txtNombre" CssClass="form-control" placeholder="Ingrese Nombre" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="RequiredFieldValidator" Text="Ingrese un nombre" ControlToValidate="txtNombre" ForeColor="Red"></asp:RequiredFieldValidator>
+                </div>
+                <div class="col">
+                    <label for="txtApellido" class="form-label">Apellido</label>
+                    <asp:TextBox runat="server" ID="txtApellido" CssClass="form-control" placeholder="Ingrese Apellido" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="RequiredFieldValidator" Text="Ingrese el apellido" ControlToValidate="txtApellido" ForeColor="Red"></asp:RequiredFieldValidator>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="txtEmail" class="form-label">Email</label>
+                <asp:TextBox runat="server" ID="txtEmail" CssClass="form-control" placeholder="Ingrese Email" />
+                <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ErrorMessage="RegularExpressionValidator" Text="Email incorrecto" ControlToValidate="txtEmail" ValidationExpression='^[\w\.-]+@[\w\.-]+\.\w{2,4}$' ForeColor="Red"></asp:RegularExpressionValidator>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <label for="txtDireccion" class="form-label">Direccion</label>
+                    <asp:TextBox runat="server" ID="txtDireccion" CssClass="form-control" placeholder="Ingrese Direccion" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="txtDireccion" Text="Ingrese una direccion" ForeColor="Red"></asp:RequiredFieldValidator>
+                </div>
+                <div class="col">
+                    <label for="txtCiudad" class="form-label">Ciudad</label>
+                    <asp:TextBox runat="server" ID="txtCiudad" CssClass="form-control" placeholder="Ingrese Ciudad" />
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="txtCiudad" Text="Ingrese una ciudad" ForeColor="Red"></asp:RequiredFieldValidator>
+                </div>
+                <div class="col">
+                    <label for="txtCP" class="form-label">CP</label>
+                    <asp:TextBox runat="server" ID="txtCP" CssClass="form-control" placeholder="Ingrese CP" />
+                    <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="RangeValidator" MinimumValue="1001" MaximumValue="9431" Text="El codigo postal debe estar entre 1001 y 9431" ControlToValidate="txtCP" ForeColor="Red"></asp:RangeValidator>
+                </div>
+                <div class="form-check">
+                    <asp:CheckBox Text="" ID="check_tyc" runat="server" OnCheckedChanged="tyc_checked" AutoPostBack="true"/>
+                    <asp:Label ID="Label1" runat="server" Text="Aceptar termino y condiciones"></asp:Label>
+                    <div>
+                        <asp:Label ID="lblMensaje" runat="server" />
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <asp:Button ID="Button1" runat="server" Text="Button" class="btn btn-primary" OnClick="btn_click"/>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </asp:Content>

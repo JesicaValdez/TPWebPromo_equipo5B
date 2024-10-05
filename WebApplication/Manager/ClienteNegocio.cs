@@ -70,15 +70,14 @@ namespace Manager
             try
             {
                 
-                datos.setearConsulta("insert into Clientes (Id, Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) \r\n values (@Id, @Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
-                datos.setearParametro("@Id", nuevo.id);
+                datos.setearConsulta("insert into Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) \r\n values (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
                 datos.setearParametro("@Documento", nuevo.documento);
                 datos.setearParametro("@Nombre", nuevo.nombre);
-                datos.setearParametro("Apellido", nuevo.email);
-                datos.setearParametro("Email", nuevo.email);
-                datos.setearParametro("Direccion", nuevo.direccion);
-                datos.setearParametro("Ciudad", nuevo.ciudad);
-                datos.setearParametro("CP", nuevo.codigoPostal);
+                datos.setearParametro("@Apellido", nuevo.email);
+                datos.setearParametro("@Email", nuevo.email);
+                datos.setearParametro("@Direccion", nuevo.direccion);
+                datos.setearParametro("@Ciudad", nuevo.ciudad);
+                datos.setearParametro("@CP", nuevo.codigoPostal);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
