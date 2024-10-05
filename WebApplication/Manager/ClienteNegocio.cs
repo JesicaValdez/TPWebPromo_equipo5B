@@ -37,10 +37,10 @@ namespace Manager
 
                     if (!(datos.Lector["Email"] is DBNull))
                         aux.email = (string)datos.Lector["Email"];
-                    
+
                     if (!(datos.Lector["Direccion"] is DBNull))
                         aux.direccion = (string)datos.Lector["Direccion"];
-                    
+
 
                     if (!(datos.Lector["Ciudad"] is DBNull))
                         aux.ciudad = (string)datos.Lector["Ciudad"];
@@ -69,7 +69,7 @@ namespace Manager
 
             try
             {
-                
+
                 datos.setearConsulta("insert into Clientes (Documento, Nombre, Apellido, Email, Direccion, Ciudad, CP) \r\n values (@Documento, @Nombre, @Apellido, @Email, @Direccion, @Ciudad, @CP)");
                 datos.setearParametro("@Documento", nuevo.documento);
                 datos.setearParametro("@Nombre", nuevo.nombre);
@@ -122,5 +122,29 @@ namespace Manager
 
         }
 
+        public int obtenerIDCliente(int id)
+        {
+            AccesoDB datos = new AccesoDB();
+            try
+            {
+                datos.setearConsulta("SELECT Id From Clientes WHERE Documento = @Documento");
+                datos.comando.Parameters.AddWithValue("@Documento", id);
+                datos.ejecutarLectura();
+
+                if (datos.Lector.Read())
+                {
+                    return datos.Lector.GetInt32(0);
+                }
+                else
+                {
+                    return 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+        }
     }
 }

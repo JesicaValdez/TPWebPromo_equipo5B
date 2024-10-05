@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div class="mb-3">
-                    <asp:Button ID="Button1" runat="server" Text="Button" class="btn btn-primary" OnClick="btn_click"/>
+                    <asp:Button ID="Button1" runat="server" Text="Participar" class="btn btn-primary" OnClick="btn_click"/>
                 </div>
             </div>
         </div>

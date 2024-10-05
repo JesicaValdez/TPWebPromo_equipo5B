@@ -55,7 +55,7 @@
                 <div class="card-body">
                     <h5 class="card-title"><%:art.nombre%></h5>
                     <p class="card-text"><%:art.descripcion %></p>
-                        <a href="Login.aspx&Id=<%:art.imagenurl%>" class="btn btn-primary">Seleccionar</a>
+                        <asp:Button ID="btnSeleccionado" runat="server" Text="Seleccionar" class="btn btn-primary" CommandArgument='<%# Eval("id") %>'  OnClick="BtnS_Click"></asp:Button>
                     </div>
                 </div>
                 </div>

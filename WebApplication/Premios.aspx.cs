@@ -13,6 +13,7 @@ namespace WebApplication
     {
         public List<Articulo> listaArticulos { get; set; }
         public ImagenNegocio negocioImagen = new ImagenNegocio();
+
         protected void Page_Load(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
@@ -24,6 +25,19 @@ namespace WebApplication
             {
                 throw new Exception("No se pudo cargar la lista de artículos.");
             }
+        }
+
+        protected void BtnS_Click(object sender, EventArgs e)
+        {
+            VoucherNegocio negocio = new VoucherNegocio();
+
+
+            Button btnSeleccionado = (Button)sender;
+            string id = btnSeleccionado.CommandArgument;
+            Session.Add("idArticulo", id);
+            string voucher = (string)Session["voucher"];
+            Response.Redirect("Login.aspx");
+
         }
     }
 }

@@ -3,6 +3,7 @@ using Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
@@ -38,7 +39,7 @@ namespace WebApplication
 
 
                     if (seleccionado != null)
-                    {                        
+                    {
                         txtNombre.Text = seleccionado.nombre;
                         txtApellido.Text = seleccionado.apellido;
                         txtEmail.Text = seleccionado.email;
@@ -73,25 +74,36 @@ namespace WebApplication
                 lblMensaje.Text = "Debe aceptar los terminos y condiciones";
                 lblMensaje.ForeColor = System.Drawing.Color.Red;
             }
-           
+
         }
 
         protected void btn_click(object sender, EventArgs e)
         {
             ClienteNegocio negocio = new ClienteNegocio();
+            VoucherNegocio negocioVoucher = new VoucherNegocio();
+            ArticuloNegocio articuloNegocio = new ArticuloNegocio();
 
-            if (string.IsNullOrWhiteSpace(txtdni.Text))
+            try
             {
-                lblResultado.Text = "Ingrese un DNI.";
-                lblResultado.ForeColor = System.Drawing.Color.Red;
-            }
+                if (string.IsNullOrWhiteSpace(txtdni.Text))
+                {
+                    lblResultado.Text = "Ingrese un DNI.";
+                    lblResultado.ForeColor = System.Drawing.Color.Red;
+                }
 
-            if (negocio.verificadorDNI(txtdni.Text))
-            {
-                Response.Redirect("EstaParticipando.aspx");
-            }
-            else
-            {
+                if (negocio.verificadorDNI(txtdni.Text))
+                {
+                    Response.Redirect("EstaParticipando.aspx");
+                }
+
+                if (check_tyc.Checked == false)
+                {
+                    lblMensaje.Text = "Debe aceptar los terminos y condiciones";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
+                }
+
+
+
                 Cliente nuevoCliente = new Cliente
                 {
                     documento = txtdni.Text,
@@ -104,8 +116,30 @@ namespace WebApplication
                 };
 
                 negocio.agregarCliente(nuevoCliente);
-                Response.Redirect("EstaParticipando.aspx");
+                nuevoCliente.id = negocio.obtenerIDCliente(nuevoCliente.id);
+
+                if (Session["idArticulo"] != null && !int.TryParse((string)Session["idArticulo"], out int idArticulo))
+                {
+                    Voucher voucher = new Voucher
+                    {
+                        codigo = (string)Session["voucher"],
+                        idCliente = nuevoCliente.id,
+                        idArticulo =int.Parse((string)Session["idArticulo"]),
+                        fechaCanje = DateTime.Now
+                    };
+
+                    
+                    negocioVoucher.modificarVoucher(voucher);
+                    Response.Redirect("EstaParticipando.aspx");
+                }
+
             }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+
+
         }
     }
 }

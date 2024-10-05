@@ -7,6 +7,7 @@
      <hr />
      <h1>¡FELICITACIONES!</h1>
      <p>Usted esta participando por el premio</p>
+         <p>Te enviamos un mail a tu correo electronico con la confirmación del Voucher, si no se encuentra en bandeja de entrada, revisar en spam.</p>
      <asp:Button ID="Button3" runat="server" class="btn btn-primary" OnClick="btn_cerrar" Text="Volver" />        
      </div>
 

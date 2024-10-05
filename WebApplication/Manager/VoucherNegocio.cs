@@ -56,7 +56,11 @@ namespace Manager
         {
             try
             {
-                datos.setearConsulta("update Vouchers set IdCliente = '" + nuevo.idCliente + "', IdArticulo = '" + nuevo.idArticulo + "', FechaCanje = '" + nuevo.fechaCanje + "' where CodigoVoucher = '" + nuevo.codigo + "'");
+                datos.setearConsulta("UPDATE Vouchers SET IdCliente = @IdCliente, IdArticulo = @IdArticulo, FechaCanje = @FechaCanje WHERE CodigoVoucher = @CodigoVoucher");
+                datos.setearParametro("@CodigoVoucher", nuevo.codigo);
+                datos.setearParametro("@IdCliente", nuevo.idCliente);
+                datos.setearParametro("@FechaCanje", nuevo.fechaCanje);
+                datos.setearParametro("@IdArticulo", nuevo.idArticulo);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)
