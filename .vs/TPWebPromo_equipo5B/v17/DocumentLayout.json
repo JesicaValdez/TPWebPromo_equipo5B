@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\manager\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\premios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,40 +19,16 @@
       "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\premios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\promogan\u00E1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\promogan\u00E1.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\manager\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\vouchernegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\manager\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\clientenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\premios.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\premios.aspx.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{985C0A50-8262-4EAB-86ED-268909599CB9}|WebApplication\\Dominio\\Dominio.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{985C0A50-8262-4EAB-86ED-268909599CB9}|WebApplication\\Dominio\\Dominio.csproj|solutionrelative:webapplication\\dominio\\voucher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\estaparticipando.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\estaparticipando.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\manager\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\estaparticipando.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\estaparticipando.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\webapplication\\manager\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,28 +54,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "EstaParticipando.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\EstaParticipando.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication\\EstaParticipando.aspx.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\EstaParticipando.aspx.cs",
-              "RelativeToolTip": "WebApplication\\EstaParticipando.aspx.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBIAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "ClienteNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ClienteNegocio.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Manager\\ClienteNegocio.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ClienteNegocio.cs",
+              "RelativeToolTip": "WebApplication\\Manager\\ClienteNegocio.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAlwIEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T01:53:31.136Z",
+              "WhenOpened": "2024-10-05T21:22:49.137Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication\\Login.aspx.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
               "RelativeToolTip": "WebApplication\\Login.aspx.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAIwHwAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T03:56:57.139Z",
+              "WhenOpened": "2024-10-05T21:09:00.713Z",
               "EditorCaption": ""
             },
             {
@@ -102,53 +86,39 @@
               "RelativeDocumentMoniker": "WebApplication\\Manager\\VoucherNegocio.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\VoucherNegocio.cs",
               "RelativeToolTip": "WebApplication\\Manager\\VoucherNegocio.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAowAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowEMAAABTAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:33:13.294Z",
+              "WhenOpened": "2024-10-05T21:07:28.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Premios.aspx.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Premios.aspx.cs",
               "RelativeDocumentMoniker": "WebApplication\\Premios.aspx.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Premios.aspx.cs",
               "RelativeToolTip": "WebApplication\\Premios.aspx.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADYAAAAAAAAAAAAlwEUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:28:37.534Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EstaParticipando.aspx",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\EstaParticipando.aspx",
-              "RelativeDocumentMoniker": "WebApplication\\EstaParticipando.aspx",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\EstaParticipando.aspx",
-              "RelativeToolTip": "WebApplication\\EstaParticipando.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-04T23:13:20.996Z",
+              "WhenOpened": "2024-10-05T16:28:33.938Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ClienteNegocio.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ClienteNegocio.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Manager\\ClienteNegocio.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ClienteNegocio.cs",
-              "RelativeToolTip": "WebApplication\\Manager\\ClienteNegocio.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAQwIIAAAA2AAAAAAAAAA==",
+              "Title": "Premios.aspx.designer.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Premios.aspx.designer.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Premios.aspx.designer.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Premios.aspx.designer.cs",
+              "RelativeToolTip": "WebApplication\\Premios.aspx.designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAArwBoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-03T21:27:57.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T18:35:28.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Premios.aspx",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Premios.aspx",
               "RelativeDocumentMoniker": "WebApplication\\Premios.aspx",
@@ -156,60 +126,20 @@
               "RelativeToolTip": "WebApplication\\Premios.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T02:27:52.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Promogan\u00E1.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Promogan\u00E1.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Promogan\u00E1.aspx.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Promogan\u00E1.aspx.cs",
-              "RelativeToolTip": "WebApplication\\Promogan\u00E1.aspx.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBUAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T04:34:38.931Z",
+              "WhenOpened": "2024-10-05T16:28:10.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Voucher.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Dominio\\Voucher.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Dominio\\Voucher.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Dominio\\Voucher.cs",
-              "RelativeToolTip": "WebApplication\\Dominio\\Voucher.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "WebApplication\\Manager\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\ArticuloNegocio.cs",
+              "RelativeToolTip": "WebApplication\\Manager\\ArticuloNegocio.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:41:38.127Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
-              "RelativeDocumentMoniker": "WebApplication\\Login.aspx",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
-              "RelativeToolTip": "WebApplication\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-05T02:43:00.241Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AccesoDB.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\AccesoDB.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Manager\\AccesoDB.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\AccesoDB.cs",
-              "RelativeToolTip": "WebApplication\\Manager\\AccesoDB.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAAB+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T02:23:47.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T19:44:03.481Z"
             }
           ]
         },

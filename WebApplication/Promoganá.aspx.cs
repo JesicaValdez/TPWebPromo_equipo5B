@@ -20,7 +20,7 @@ namespace WebApplication
         {
             VoucherNegocio neg = new VoucherNegocio();
             List<Voucher> lista = neg.listarVouchers();
-            if(Vou.Text == "")
+            if(string.IsNullOrEmpty(Vou.Text))
             {
                 Session.Add("error", 1);
                 Response.Redirect("Incorrecto.aspx");

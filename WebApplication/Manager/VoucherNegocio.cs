@@ -65,6 +65,32 @@ namespace Manager
             }
             catch (Exception ex)
             {
+                throw new Exception("Error al modificar el voucher: " + ex.Message);
+            }
+            finally
+            {
+                datos.cerrarConexion();
+            }
+        }
+
+        public string ObtenerCodigoVoucher(int idArticulo)
+        {
+            try
+            {
+                datos.setearConsulta("SELECT Id FROM Vouchers WHERE IdArticulo = @IdArticulo");
+                datos.setearParametro("@IdArticulo", idArticulo);
+
+                if (datos.Lector.Read())
+                {
+                    return (string)datos.Lector["CodigoVoucher"];
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception ex)
+            {
                 throw ex;
             }
             finally

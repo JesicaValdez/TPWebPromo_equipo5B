@@ -12,6 +12,7 @@ namespace WebApplication
 {
     public partial class WebForm2 : System.Web.UI.Page
     {
+        
         protected void Page_Load(object sender, EventArgs e)
         {
 
@@ -102,8 +103,6 @@ namespace WebApplication
                     lblMensaje.ForeColor = System.Drawing.Color.Red;
                 }
 
-
-
                 Cliente nuevoCliente = new Cliente
                 {
                     documento = txtdni.Text,
@@ -116,21 +115,32 @@ namespace WebApplication
                 };
 
                 negocio.agregarCliente(nuevoCliente);
-                nuevoCliente.id = negocio.obtenerIDCliente(nuevoCliente.id);
+                nuevoCliente.id = negocio.obtenerIDCliente(nuevoCliente.documento);
 
-                if (Session["idArticulo"] != null && !int.TryParse((string)Session["idArticulo"], out int idArticulo))
+                if(nuevoCliente.id == 0)
+                {
+                    lblMensaje.Text = "Error al obtener el ID del cliente.";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
+                }
+
+                if (Session["premioID"] != null && int.TryParse(Session["premioID"].ToString(), out int idArticulo))
                 {
                     Voucher voucher = new Voucher
                     {
                         codigo = (string)Session["voucher"],
                         idCliente = nuevoCliente.id,
-                        idArticulo =int.Parse((string)Session["idArticulo"]),
+                        idArticulo = idArticulo,
                         fechaCanje = DateTime.Now
                     };
 
                     
                     negocioVoucher.modificarVoucher(voucher);
                     Response.Redirect("EstaParticipando.aspx");
+                }
+                else
+                {
+                    lblMensaje.Text = "Error al procesar el premio. Seleccione un premio válido.";
+                    lblMensaje.ForeColor = System.Drawing.Color.Red;
                 }
 
             }

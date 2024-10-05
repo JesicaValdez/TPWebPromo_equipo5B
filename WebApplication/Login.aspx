@@ -4,6 +4,12 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <h1>Ingresá tus datos</h1>
+
+    <div>
+        <asp:Label ID="lblID" runat="server" ForeColor="Red"></asp:Label>
+        <asp:Label ID="lblCodigoVoucher" runat="server" ForeColor="Red"></asp:Label>
+    </div>
+
     <div class="row">
         <div class="col-5">
             <div class="mb-3">

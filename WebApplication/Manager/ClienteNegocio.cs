@@ -122,13 +122,13 @@ namespace Manager
 
         }
 
-        public int obtenerIDCliente(int id)
+        public int obtenerIDCliente(string documento)
         {
             AccesoDB datos = new AccesoDB();
             try
             {
                 datos.setearConsulta("SELECT Id From Clientes WHERE Documento = @Documento");
-                datos.comando.Parameters.AddWithValue("@Documento", id);
+                datos.setearParametro("@Documento", documento);
                 datos.ejecutarLectura();
 
                 if (datos.Lector.Read())
@@ -143,6 +143,10 @@ namespace Manager
             catch (Exception ex)
             {
                 throw ex;
+            }
+            finally
+            {
+                datos.cerrarConexion();
             }
 
         }
