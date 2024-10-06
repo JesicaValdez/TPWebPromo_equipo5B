@@ -48,13 +48,13 @@
                 <div class="col">
                     <label for="txtCP" class="form-label">CP</label>
                     <asp:TextBox runat="server" ID="txtCP" CssClass="form-control" placeholder="Ingrese CP" />
-                    <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="RangeValidator" MinimumValue="1001" MaximumValue="9431" Text="El codigo postal debe estar entre 1001 y 9431" ControlToValidate="txtCP" ForeColor="Red"></asp:RangeValidator>
+                    <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ErrorMessage="RequiredFieldValidator" ControlToValidate="txtCP" Text="Ingrese un CP" ForeColor="Red"></asp:RequiredFieldValidator>             
                 </div>
                 <div class="form-check">
-                    <asp:CheckBox Text="" ID="check_tyc" runat="server" OnCheckedChanged="tyc_checked" AutoPostBack="true"/>
+                    <asp:CheckBox Text="" ID="check_tyc" runat="server"/>
                     <asp:Label ID="Label1" runat="server" Text="Aceptar termino y condiciones"></asp:Label>
                     <div>
-                        <asp:Label ID="lblMensaje" runat="server" />
+                        <asp:Label ID="lblMensaje" runat="server" Visible="false" Text="Aceptar terminos y condiciones para participar" ForeColor="Red" />
                     </div>
                 </div>
                 <div class="mb-3">
