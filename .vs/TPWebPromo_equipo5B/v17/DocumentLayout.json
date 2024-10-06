@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\",
+  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\qqmelo\\desktop\\proyectos\\tpwebpromo_equipo5b\\webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\webapplication\\manager\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9F42F8B-C5F4-4EDD-B695-EBA5E5373ACE}|WebApplication\\Manager\\Manager.csproj|solutionrelative:webapplication\\manager\\accesodb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|c:\\users\\user\\source\\repos\\tpwebpromo_equipo5b\\webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}",
+      "RelativeMoniker": "D:0:0:{9C95AACA-8730-4DDF-9BE8-70320D754864}|WebApplication\\TPWebPromo_Equipo5B.csproj|solutionrelative:webapplication\\masterpage.master||{B30AFBFF-D992-43B7-B62D-2642580A2883}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,40 +30,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccesoDB.cs",
-              "DocumentMoniker": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\AccesoDB.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Manager\\AccesoDB.cs",
-              "ToolTip": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Manager\\AccesoDB.cs",
-              "RelativeToolTip": "WebApplication\\Manager\\AccesoDB.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAABuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T20:08:41.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Login.aspx",
-              "DocumentMoniker": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
-              "RelativeDocumentMoniker": "WebApplication\\Login.aspx",
-              "ToolTip": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx",
-              "RelativeToolTip": "WebApplication\\Login.aspx",
+              "DocumentIndex": 0,
+              "Title": "MasterPage.Master",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\MasterPage.Master",
+              "RelativeDocumentMoniker": "WebApplication\\MasterPage.Master",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\TPWebPromo_equipo5B\\WebApplication\\MasterPage.Master",
+              "RelativeToolTip": "WebApplication\\MasterPage.Master",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
-              "WhenOpened": "2024-10-06T19:13:22.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Login.aspx.cs",
-              "DocumentMoniker": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
-              "RelativeDocumentMoniker": "WebApplication\\Login.aspx.cs",
-              "ToolTip": "C:\\Users\\QQmelo\\Desktop\\Proyectos\\TPWebPromo_equipo5B\\WebApplication\\Login.aspx.cs",
-              "RelativeToolTip": "WebApplication\\Login.aspx.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAcwHsAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T19:13:07.903Z",
+              "WhenOpened": "2024-10-06T23:38:42.179Z",
               "EditorCaption": ""
             }
           ]

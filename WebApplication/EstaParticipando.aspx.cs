@@ -16,7 +16,7 @@ namespace WebApplication
 
         protected void btn_cerrar(object sender, EventArgs e) 
         {
-            Response.Redirect("Promoganá.aspx");
+            Response.Redirect("Promogana.aspx");
         }
 
     }
