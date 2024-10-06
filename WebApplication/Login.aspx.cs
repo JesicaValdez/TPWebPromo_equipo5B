@@ -135,6 +135,11 @@ namespace WebApplication
 
                     
                     negocioVoucher.modificarVoucher(voucher);
+
+                    EmailService emailService = new Manager.EmailService();
+                    emailService.armarCorreo(nuevoCliente.email, "Canje de Premio Exitoso", "Hola " + nuevoCliente.nombre + ", tu canje de premio fue exitoso. En los próximos días recibirás tu premio en tu dirección.");
+                    emailService.enviarEmail();
+
                     Response.Redirect("EstaParticipando.aspx");
                 }
                 else
